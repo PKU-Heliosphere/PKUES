@@ -1,0 +1,3 @@
+qs(e)   ms(mp)      ns(m^-3)    Tzs(eV)     Tps(eV)    alphas   Deltas    vds/c
+ 1      1           1.1e6      2383.3      4340.6     1.0      1.0       0.0
+-1      5.447e-4    1.1e6      348.0       458.3     1.0      1.0       0.0
