@@ -4,7 +4,7 @@ PKUES is a tool package standing for “Plasma Kinetics Unified Eigenmodes’ So
 PKUES mainly consists of three parts. (1) It solves and displays the dispersion relation of all possible eigenmodes at one time by transforming the dispersion relation to a standard matrix eigenvalue problem of an equivalent linear system. This part is mainly based on the tool of PDRK (Plasma Dispersion Relation Kinetics) (Xie & Xiao, Plasma Science and Technology, 18(2), 97., 2016). (2) It calculates and displays wavenumber dependence of the polarization relationship, transport ratio, compressibility and magnetic helicity, providing a reference for users to choose the appropriate wave mode they want. Besides the wave electromagnetic field vectors, the fluctuations of number density and bulk velocity of different particle species are also calculated. (3) It also calculates and displays the disturbed velocity distribution (phase space density) of different particle species main according to the textbook of “Wave in Plasmas” (Stix, 1992). The function of the third part is similar to the second part of the NHDS tool programmed in Fortran language (Verscharen et al., Astrophys J 831:128, 2016; Verscharen & Chandran, Arixv, 1804.10096, 2018).
 
 Please refer the quick user guide
-https://github.com/PKU-Heliosphere/PKUES/blob/main/Quick%20User%20Guide%20to%20PKUES%20(v3).pdf
+https://github.com/PKU-Heliosphere/PKUES/blob/main/Quick%20User%20Guide%20to%20PKUES.pdf
 to use the code.
 
 Authors: Jiansen HE, Die DUAN, Xingyu ZHU
