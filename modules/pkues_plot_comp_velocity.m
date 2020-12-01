@@ -1,4 +1,4 @@
-% 20-05-14 added by Xingyu Zhu and Jiansen He
+% 20-05-14 coded by Xingyu Zhu and Jiansen He
 % plot velocity Polarizations Comp1: Vy/iVx; Comp1/Comp2: Vx1/Vx2;
 if (S==3) %for two ion components (core+beam)
 h3 = figure('unit','normalized','Position',[0.01 0.1 0.9 0.8],...
