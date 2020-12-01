@@ -1,4 +1,4 @@
-% written by Xingyu Zhu 2020-06-01
+% written by Xingyu Zhu and Jiansen He 2020-06-01
 % last modified: 2020-06-19
 %%%%%%%%%%%%%%%%%%%%%%%
 VXarray = zeros(vxsteps+1,vysteps+1,vzsteps+1);

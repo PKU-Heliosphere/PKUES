@@ -3,7 +3,7 @@
 % etc ...
 % Use this file to output the results.
 % =====================================
-% Edited by Xingyu Zhu and Die Duan to plot polarizations of different
+% Modified by Xingyu Zhu, Die Duan and Jiansen He to plot polarizations of different
 % components, magnetic helicity and magnetic compressibility as a function
 % of k
 

@@ -1,4 +1,4 @@
-% 20-05-20 added by Xingyu Zhu
+% 20-05-20 added by Xingyu Zhu and Jiansen He
 % plot growing rate according to Eq.(3) of He et al. (2019)
 if(S==3) %for core ions
 %%%%%%%

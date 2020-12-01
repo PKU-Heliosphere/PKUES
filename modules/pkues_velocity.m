@@ -1,4 +1,4 @@
-% 20-05-14 08:23 Added By Xingyu Zhu
+% 20-05-14 08:23 Codeded By Xingyu Zhu and Jiansen He
 % This file calculates the current/velocity of each component
 
 

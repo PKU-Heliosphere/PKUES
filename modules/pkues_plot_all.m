@@ -4,7 +4,7 @@
 % This file plot all the solution of pdrk-em3d results, which can be used
 % to select the initial data for separating different dispersion surface
 %=================================================================================
-% edited by Duan 2019/11/28
+% Modified by Duan and He 2019/11/28
 % draw the 1-D dispersion relation in different color
 %
 close all;
@@ -28,7 +28,7 @@ if(ipa==ipb) % 1D plot
   npp=length(papp);
 
   sp1 = subplot(121);
-  % Edited by Duan 19/11/28
+  % Edited by Duan and He 19/11/28
   color_arr = hsv(nw0);
   wiplots = cell(nw0,1);
   for iplot = 1:nw0
@@ -41,7 +41,7 @@ if(ipa==ipb) % 1D plot
   end  
   end
   ylim([-1 10])
-  % Edited by Duan 19/28/11
+  % Edited by Duan and He 19/28/11
   xlabel([strpa,', runtime=',num2str(runtime),'s']); 
   ylabel(['\omega_r/\omega_{c1}, npa=',num2str(npa),',npb=',num2str(npb)]);
   title(['(a) \beta_{||}=',num2str(betasz,3),...
@@ -50,7 +50,7 @@ if(ipa==ipb) % 1D plot
   box on; %ylim([-2.5,2.5]);
   
   sp2 = subplot(122);
-   % Edited by Duan 19/11/28
+   % Edited by Duan and He 19/11/28
   for iplot = 1:nw0
   if(iloga==0)
     %plot(papp,imag(www),'g+','LineWidth',2); hold on;
@@ -60,7 +60,7 @@ if(ipa==ipb) % 1D plot
     loglog(10.^ppa,imag(wwn(:,1,iplot)),'Color',color_arr(iplot,:),'Marker','+','LineStyle','None','LineWidth',2); hold on;
   end
   end
-   % Edited by Duan 19/11/28
+   % Edited by Duan and He 19/11/28
   ylim([-2 0.5])
   xlabel([strpa,', (S=',num2str(S),',N=',num2str(N),',J=',num2str(J),')']); 
   ylabel('\omega_i/\omega_{c1}');
@@ -97,7 +97,7 @@ figstr=['S=',num2str(S),'_J=',num2str(J),'_N=',num2str(N),...
 print(gcf,'-dpng',[savepath,'fig_pdrk_',figstr,'_all.png']);
 savefig([savepath,'fig_pdrk_',figstr,'_all.fig']);
 
-%Added by Die Duan 2019/12/13
+%Added by Die Duan and He 2019/12/13
 prompt = 'Please select the wave, for wr input 1, for wi input 2. Input others will end the selection.';
 computeflag = input(prompt);
 while computeflag == 1 || computeflag == 2

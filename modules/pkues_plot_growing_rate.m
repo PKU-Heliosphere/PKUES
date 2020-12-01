@@ -1,4 +1,4 @@
-% 20-05-20 added by Xingyu Zhu
+% 20-05-20 added by Xingyu Zhu and Jiansen He
 % plot growing rate according to Eq.(3) of He et al. (2019)
 if (S==3) %for two ion components (core+beam)
 h3 = figure('unit','normalized','Position',[0.01 0.1 0.7 0.8],...
