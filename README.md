@@ -7,6 +7,10 @@ Please refer to the quick user guide
 https://github.com/PKU-Heliosphere/PKUES/blob/main/Quick%20User%20Guide%20to%20PKUES.pdf
 to use the code.
 
+Please cite our following article in your paper if you use PKUES in your research work:
+Luo, Q., Zhu, X., He, J., Cui, J., Lai, H., Verscharen, D., & Duan, D. (2022). Coherence of Ion Cyclotron Resonance in Damped Ion Cyclotron Waves in Space Plasmas. The Astrophysical Journal, 928(1), 36.
+
+
 Authors: Jiansen HE, Die DUAN, Xingyu ZHU
 
 Correspondence to: jshept@pku.edu.cn
